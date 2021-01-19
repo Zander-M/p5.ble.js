@@ -9915,10 +9915,7 @@ var p5ble = function () {
                 console.log('> Notifications started');
 
                 this.handleNotifications = function (event) {
-                  var value = event.target.value;
-
-                  var parsedData = (0, _parseData2.default)(value, dataType);
-                  handleNotifications(parsedData);
+                  handleNotifications(event.target.value);
                 };
 
                 return _context2.abrupt('return', characteristic.addEventListener('characteristicvaluechanged', this.handleNotifications));

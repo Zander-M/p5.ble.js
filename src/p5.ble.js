@@ -117,8 +117,10 @@ class p5ble {
 
     this.handleNotifications = (event) => {
       const { value } = event.target;
-      const parsedData = parseData(value, dataType);
-      handleNotifications(parsedData);
+      // const parsedData = parseData(value, dataType);
+      const parsedData = value;
+      // handleNotifications(parsedData);
+      handleNotifications(event);
     };
 
     return characteristic.addEventListener('characteristicvaluechanged', this.handleNotifications);
