@@ -1,3 +1,7 @@
+A fork of p5.ble.js library. Update dist to support bot5.js project.
+
+modify the write function to send raw message content to the robot.
+
 # [p5.ble.js](https://itpnyu.github.io/p5ble-website/)
 [![MIT License](https://img.shields.io/npm/l/express.svg?style=flat-square&registry_uri=https%3A%2F%2Fregistry.npmjs.com)](https://opensource.org/licenses/MIT) [![Version](https://img.shields.io/npm/v/p5ble.svg?style=flat-square)](https://www.npmjs.com/package/p5ble)
 
